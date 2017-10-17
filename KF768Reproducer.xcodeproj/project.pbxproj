@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D55A56FDA3DBB1E3CFF0075 /* Pods_KF768Reproducer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B10FDF773B790EE4FF7A18A /* Pods_KF768Reproducer.framework */; };
+		665D8D861F95914200F1CA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D8D851F95914200F1CA0C /* AppDelegate.swift */; };
+		665D8D881F95914200F1CA0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D8D871F95914200F1CA0C /* ViewController.swift */; };
+		665D8D8B1F95914200F1CA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665D8D891F95914200F1CA0C /* Main.storyboard */; };
+		665D8D8D1F95914200F1CA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665D8D8C1F95914200F1CA0C /* Assets.xcassets */; };
+		665D8D901F95914200F1CA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665D8D8E1F95914200F1CA0C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B10FDF773B790EE4FF7A18A /* Pods_KF768Reproducer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KF768Reproducer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665D8D821F95914200F1CA0C /* KF768Reproducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KF768Reproducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665D8D851F95914200F1CA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665D8D871F95914200F1CA0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665D8D8A1F95914200F1CA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665D8D8C1F95914200F1CA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665D8D8F1F95914200F1CA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665D8D911F95914200F1CA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5136845B1DB13A568D24BC1 /* Pods-KF768Reproducer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KF768Reproducer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KF768Reproducer/Pods-KF768Reproducer.debug.xcconfig"; sourceTree = "<group>"; };
+		ED75BBDD11158A6D99E37925 /* Pods-KF768Reproducer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KF768Reproducer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KF768Reproducer/Pods-KF768Reproducer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665D8D7F1F95914200F1CA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D55A56FDA3DBB1E3CFF0075 /* Pods_KF768Reproducer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329D3BE4B048AC7861D8457C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5136845B1DB13A568D24BC1 /* Pods-KF768Reproducer.debug.xcconfig */,
+				ED75BBDD11158A6D99E37925 /* Pods-KF768Reproducer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		665D8D791F95914200F1CA0C = {
+			isa = PBXGroup;
+			children = (
+				665D8D841F95914200F1CA0C /* KF768Reproducer */,
+				665D8D831F95914200F1CA0C /* Products */,
+				329D3BE4B048AC7861D8457C /* Pods */,
+				EDFBAA792859D5932AB474C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665D8D831F95914200F1CA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665D8D821F95914200F1CA0C /* KF768Reproducer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665D8D841F95914200F1CA0C /* KF768Reproducer */ = {
+			isa = PBXGroup;
+			children = (
+				665D8D851F95914200F1CA0C /* AppDelegate.swift */,
+				665D8D871F95914200F1CA0C /* ViewController.swift */,
+				665D8D891F95914200F1CA0C /* Main.storyboard */,
+				665D8D8C1F95914200F1CA0C /* Assets.xcassets */,
+				665D8D8E1F95914200F1CA0C /* LaunchScreen.storyboard */,
+				665D8D911F95914200F1CA0C /* Info.plist */,
+			);
+			path = KF768Reproducer;
+			sourceTree = "<group>";
+		};
+		EDFBAA792859D5932AB474C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B10FDF773B790EE4FF7A18A /* Pods_KF768Reproducer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665D8D811F95914200F1CA0C /* KF768Reproducer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665D8D941F95914200F1CA0C /* Build configuration list for PBXNativeTarget "KF768Reproducer" */;
+			buildPhases = (
+				78E835800C38AFA3C58BEFAE /* [CP] Check Pods Manifest.lock */,
+				665D8D7E1F95914200F1CA0C /* Sources */,
+				665D8D7F1F95914200F1CA0C /* Frameworks */,
+				665D8D801F95914200F1CA0C /* Resources */,
+				5B3C1D47231F0A295D065A88 /* [CP] Embed Pods Frameworks */,
+				FE3234FDEB6EE2EEF9E57F64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KF768Reproducer;
+			productName = KF768Reproducer;
+			productReference = 665D8D821F95914200F1CA0C /* KF768Reproducer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665D8D7A1F95914200F1CA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = inD;
+				TargetAttributes = {
+					665D8D811F95914200F1CA0C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 665D8D7D1F95914200F1CA0C /* Build configuration list for PBXProject "KF768Reproducer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665D8D791F95914200F1CA0C;
+			productRefGroup = 665D8D831F95914200F1CA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665D8D811F95914200F1CA0C /* KF768Reproducer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665D8D801F95914200F1CA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665D8D901F95914200F1CA0C /* LaunchScreen.storyboard in Resources */,
+				665D8D8D1F95914200F1CA0C /* Assets.xcassets in Resources */,
+				665D8D8B1F95914200F1CA0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B3C1D47231F0A295D065A88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KF768Reproducer/Pods-KF768Reproducer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KF768Reproducer/Pods-KF768Reproducer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E835800C38AFA3C58BEFAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KF768Reproducer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3234FDEB6EE2EEF9E57F64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KF768Reproducer/Pods-KF768Reproducer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665D8D7E1F95914200F1CA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665D8D881F95914200F1CA0C /* ViewController.swift in Sources */,
+				665D8D861F95914200F1CA0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665D8D891F95914200F1CA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665D8D8A1F95914200F1CA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665D8D8E1F95914200F1CA0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665D8D8F1F95914200F1CA0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665D8D921F95914200F1CA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665D8D931F95914200F1CA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665D8D951F95914200F1CA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5136845B1DB13A568D24BC1 /* Pods-KF768Reproducer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KF768Reproducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ind.KF768Reproducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665D8D961F95914200F1CA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED75BBDD11158A6D99E37925 /* Pods-KF768Reproducer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KF768Reproducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ind.KF768Reproducer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665D8D7D1F95914200F1CA0C /* Build configuration list for PBXProject "KF768Reproducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665D8D921F95914200F1CA0C /* Debug */,
+				665D8D931F95914200F1CA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665D8D941F95914200F1CA0C /* Build configuration list for PBXNativeTarget "KF768Reproducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665D8D951F95914200F1CA0C /* Debug */,
+				665D8D961F95914200F1CA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665D8D7A1F95914200F1CA0C /* Project object */;
+}
